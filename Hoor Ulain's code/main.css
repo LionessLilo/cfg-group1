@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+.navbar-brand {
+    font-family: 'Oswald';
+    font-size: larger;
+}
+.navbar {
+    background-color: rgb(163, 214, 197);
+}

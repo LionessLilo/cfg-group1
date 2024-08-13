@@ -1,0 +1,23 @@
+/* Fonts */
+
+/* Colours */
+#223030 #523D35 #959D90 #BBA58F #E8D9CD #EFEFE9
+/* Main */
+
+.cf-container {
+    padding: 10em 20em 10em 20em;
+}
+
+.navbar-brand {
+    font-family: 'Oswald';
+    font-size: larger;
+}
+
+.custom-nav {
+    background-color: #959D90;
+    color: #EFEFE9;
+}
+
+.custom-nav a {
+    color: #EFEFE9;
+}
