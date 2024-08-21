@@ -2,12 +2,8 @@
 
 /* Colours */
 #223030 #523D35 #959D90 #BBA58F #E8D9CD #EFEFE9
-/* Main */
 
-.cf-container {
-    padding: 10em 20em 10em 20em;
-}
-
+/* Nav */
 .navbar-brand {
     font-family: 'Oswald';
     font-size: larger;
@@ -20,4 +16,13 @@
 
 .custom-nav a {
     color: #EFEFE9;
+}
+
+/* Contact Form */
+.cf-container {
+    padding: 10em 20em 10em 20em;
+}
+
+.ft-background {
+    background-color: #959D90;
 }

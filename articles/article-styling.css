@@ -1,0 +1,166 @@
+/* Fonts */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* Colours */
+#223030 #523D35 #959D90 #BBA58F #E8D9CD #EFEFE9
+
+/* Nav */
+.navbar-brand {
+    font-family: 'Oswald';
+    font-size: larger;
+}
+
+.custom-nav {
+    background-color: #959D90;
+    color: #EFEFE9;
+}
+
+.custom-nav a {
+    color: #EFEFE9;
+}
+
+/* Article text */
+
+.article-paragraph {
+    color: #523D35;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 4em;
+    margin: 7% 0em 7% 0em;
+    color: #223030;
+}
+
+.article-img {
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+}
+
+.header-img {
+    vertical-align: middle;
+    width: 100%;
+    margin: 0em 0em 7% 0em;
+}
+
+p {
+    align-items: center;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.final-paragraph {
+    margin: 0% 0% 10% 0%;
+}
+
+/* quote */
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: "Oswald", sans-serif;
+    max-width: 620px;
+    margin: 80px auto;
+    align-self: center;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    /* for pseudos */
+    color: #523D35;
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+    content: "";
+    position: absolute;
+    border: 2px solid #523D35;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -60px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
+}
+
+.blockquote h1:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #fff;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #BBA58F;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left: 150px;
+    padding-left: 12px;
+}
+
+
+.blockquote h4:first-letter {
+    margin-left: -12px;
+}
+
+/* Footer */
+.ft-background {
+    background-color: #959D90;
+}
