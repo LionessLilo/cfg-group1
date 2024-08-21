@@ -74,6 +74,10 @@ h2 {
     margin: 0% 0% 10% 0%;
 }
 
+.bold {
+    font-weight: 500;
+}
+
 /* quote */
 
 /* center the blockquote in the page */
