@@ -1,7 +1,7 @@
 /* Fonts */
 
 /* Colours */
-#223030 #523D35 #959D90 #BBA58F #E8D9CD #EFEFE9
+#05140b #104728=Nav bars+footers #9EB0A2 #004565=buttons #99AEBB #cde9fa
 
 /* Nav */
 .navbar-brand {
@@ -10,12 +10,12 @@
 }
 
 .custom-nav {
-    background-color: #959D90;
-    color: #EFEFE9;
+    background-color: #104728;
+    color: #9EB0A2;
 }
 
 .custom-nav a {
-    color: #EFEFE9;
+    color: #9EB0A2;
 }
 
 /* Contact Form */
@@ -23,6 +23,20 @@
     padding: 10em 20em 10em 20em;
 }
 
+h2 {
+    color: #104728;
+}
+
+.submit-btn {
+    background-color: #004565;
+    color: #cde9fa;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em 1em 0.5em 1em;
+
+}
+
+/* Footer */
 .ft-background {
-    background-color: #959D90;
+    background-color: #104728;
 }
