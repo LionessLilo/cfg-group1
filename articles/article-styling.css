@@ -1,26 +1,5 @@
-/* Fonts */
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.montserrat-<uniquifier> {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 700
-
-.oswald-<uniquifier> {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
 /* Colours */
-#104728=Nav bars+footers #9EB0A2 #004565=buttons #99AEBB
+/* #104728 Nav bars+footers #9EB0A2 #004565=buttons #99AEBB */
 
 /* Nav */
 .navbar-brand {

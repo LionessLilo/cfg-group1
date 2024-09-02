@@ -1,18 +1,3 @@
-var modal = document.getElementById("cfModal");
-var btn = document.getElementById("cf-submitButton");
-var span = document.getElementsByClassName("close")[0];
-
-
-btn.onclick = function () {
-    modal.style.display = "block";
-}
-
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function submitBTN() {
+    alert("Your story has been submitted ^.^");
 }
