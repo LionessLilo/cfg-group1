@@ -1,9 +1,21 @@
-/* Fonts */
+/* Variables */
+.btn-primary {
+    --bs-btn-bg: #004565 !important;
+    --bs-btn-border-color: #004565 !important;
+    --bs-btn-color: #cde9fa !important;
+    --bs-btn-hover-bg: #99AEBB !important;
+    --bs-btn-hover-border-color: #99AEBB !important;
+    --bs-btn-hover-color: #004565 !important;
+}
 
 /* Colours */
 /* #05140b #104728=Nav bars+footers #9EB0A2 #004565=buttons #99AEBB #cde9fa = Light on dark blue */
 
 /* Nav */
+.favicon {
+    margin-left: 2em;
+}
+
 .navbar-brand {
     font-family: 'Oswald';
     font-size: larger;
@@ -16,6 +28,22 @@
 
 .custom-nav a {
     color: #9EB0A2;
+}
+
+.h2Header {
+    padding-top: 3em;
+}
+
+.headingLine {
+    border-top: solid 5px #104728;
+    padding-bottom: 2em;
+}
+
+.moreArticlesButton {
+    margin-top: 3em;
+    background-color: var(--bs-btn-bg) !important;
+    border-color: var(--bs-btn-bg) !important;
+    color: var(--bs-btn-color) !important;
 }
 
 
