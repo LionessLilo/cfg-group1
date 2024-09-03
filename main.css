@@ -89,6 +89,14 @@ h2 {
     padding: 0.5em 1em 0.5em 1em;
 
 }
+.log-btn {
+    background-color: #004565;
+    color: #cde9fa;
+    border-radius: 10px;
+    border: none;
+    padding: 0.10em 1em 0.5em 1em;
+
+}
 
 /* Footer */
 .ft-background {
