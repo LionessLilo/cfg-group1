@@ -1,2 +1,3 @@
 # cfg-group1
-https://github.com/LionessLilo/cfg-group1.git
+our site is hosting here:
+https://hoorulain1.github.io/cfg-group1/
