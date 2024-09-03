@@ -1,3 +1,13 @@
+/* Variables */
+.btn-primary {
+    --bs-btn-bg: #004565 !important;
+    --bs-btn-border-color: #004565 !important;
+    --bs-btn-color: #cde9fa !important;
+    --bs-btn-hover-bg: #99AEBB !important;
+    --bs-btn-hover-border-color: #99AEBB !important;
+    --bs-btn-hover-color: #004565 !important;
+}
+
 /* Colours */
 /* #104728 Nav bars+footers #9EB0A2 #004565=buttons #99AEBB */
 
@@ -10,6 +20,12 @@
 .custom-nav {
     background-color: #104728;
     color: #9EB0A2;
+}
+
+.custom-nav a:hover {
+    background-color: #9EB0A2;
+    color: #104728;
+    border-radius: 3px;
 }
 
 .custom-nav a {
